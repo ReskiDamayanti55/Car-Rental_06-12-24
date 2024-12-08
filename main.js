@@ -96,3 +96,8 @@ const swiper = new Swiper('.swiper', {
 		updateSwiperImage(event, args);
 	},
 });
+
+ScrollReveal().reveal('.story__card', {
+	...scrollRevealOption,
+	interval: 500,
+});
